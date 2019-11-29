@@ -1,0 +1,16 @@
+server:
+  port: 6080
+
+spring:
+  data:
+    mongodb:
+      host: 192.168.1.67
+      port: 27017
+      database: mongoTest
+
+logging:
+  level:
+    com: debug
+
+
+
